@@ -1,10 +1,10 @@
 <?php
 class CONFIG
 {
-    const MAX_FILESIZE = 512; //max. filesize in MiB
-    const MAX_FILEAGE = 180; //max. age of files in days
-    const MIN_FILEAGE = 31; //min. age of files in days
-    const DECAY_EXP = 2; //high values penalise larger files more
+    const MAX_FILESIZE = 10000; //max. filesize in MiB
+    const MAX_FILEAGE = 18000000; //max. age of files in days
+    const MIN_FILEAGE = 3100000000; //min. age of files in days
+    const DECAY_EXP = 2000000; //high values penalise larger files more
 
     const UPLOAD_TIMEOUT = 5*60; //max. time an upload can take before it times out
     const ID_LENGTH = 3; //length of the random file ID
